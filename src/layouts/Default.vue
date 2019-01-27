@@ -3,14 +3,14 @@
     <el-header>
       <nav-bar/>
     </el-header>
-    <el-row>
-      <side-bar/>
-      <el-col :span="20">
-        <el-main>
+    <el-main>
+      <el-row>
+        <side-bar/>
+        <el-col :span="21">
           <slot/>
-        </el-main>
-      </el-col>
-    </el-row>
+        </el-col>
+      </el-row>
+    </el-main>
   </el-container>
 </template>
 
